@@ -1,6 +1,6 @@
-# TensorFlow iOS Examples
+# Medicmind Grading Classifier iOS Example
 
-This folder contains examples of how to build applications for iOS devices using TensorFlow.
+This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform into an iPhone App. Place the code
 
 ## Running the Samples using CocoaPod
  - You'll need Xcode 7.3 or later.
