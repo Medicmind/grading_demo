@@ -11,6 +11,8 @@ This demo demonstrates how to incorporate a trained grading tensorflow model fro
 
  - Place under /tensorflow/examples/iosgrading/camera/data
 
+![pneumonia](https://ai.medicmind.tech/models/grading_demo/12B_1.jpg)
+
 ## Running the Samples using CocoaPod
  - You'll need Xcode 7.3 or later.
 
@@ -19,7 +21,7 @@ This demo demonstrates how to incorporate a trained grading tensorflow model fro
    long time since it is big (~450MB). For example, if you want to run the
    simple example, then:
 ```bash
-cd tensorflow/examples/ios/simple
+cd tensorflow/examples/iosgrading/camera
 pod install
 open tf_simple_example.xcworkspace # obs, not the .xcodeproj directory
 ```
