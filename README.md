@@ -3,13 +3,13 @@
 This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform into an iPhone App. The neural network trained detects Pneumonia in xrays.
 
 ## Installation
- - Clone Tensorflow onto your Mac (eg 1.2.0) 
+ - Clone Tensorflow onto your Mac (Tensorflow 1.2.0 will work fine) 
 
- - Place the code under tensorflow/tensorflow/examples/iosgrading
+ - Place the code under tensorflow/tensorflow/examples/grading_demo
 
  - Download the pneumonia model https://ai.medicmind.tech/models/grading_demo/stripped_graph.pb
 
- - Place under /tensorflow/examples/iosgrading/camera/data
+ - Place under /tensorflow/examples/grading_demo/camera/data
 
 ![pneumonia](12B_1.jpg)
 
@@ -21,9 +21,9 @@ This demo demonstrates how to incorporate a trained grading tensorflow model fro
    long time since it is big (~450MB). For example, if you want to run the
    simple example, then:
 ```bash
-cd tensorflow/examples/iosgrading/camera
+cd tensorflow/examples/grading_demo/camera
 pod install
-open tf_simple_example.xcworkspace # obs, not the .xcodeproj directory
+open tf_camera_example.xcworkspace # obs, not the .xcodeproj directory
 ```
 
 
