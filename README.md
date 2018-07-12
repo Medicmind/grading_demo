@@ -11,7 +11,7 @@ This demo demonstrates how to incorporate a trained grading tensorflow model fro
 
  - Place under /tensorflow/examples/iosgrading/camera/data
 
-![pneumonia](https://ai.medicmind.tech/models/grading_demo/12B_1.jpg)
+![pneumonia](12B_1.jpg)
 
 ## Running the Samples using CocoaPod
  - You'll need Xcode 7.3 or later.
