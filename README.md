@@ -1,6 +1,6 @@
 # Medicmind Grading Classifier iOS Example
 
-This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform into an iPhone App. The neural network trained detects Pneumonia in xrays.
+This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform (https://www.medicmind.tech) into an iPhone App. The neural network trained detects Pneumonia in xrays.
 
 ## Installation
  - Clone Tensorflow onto your Mac (Tensorflow 1.2.0 will work fine) 
