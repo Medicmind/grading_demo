@@ -1,6 +1,15 @@
 # Medicmind Grading Classifier iOS Example
 
-This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform into an iPhone App. Place the code
+This demo demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform into an iPhone App. 
+
+## Installation
+Download Tensorflow onto your Mac (eg 1.2.0) 
+
+Place the code under /tensorflow/examples/iosgrading
+
+Download pneumonia model https://ai.medicmind.tech/models/grading_demo/stripped_graph.pb
+
+Place under /tensorflow/examples/iosgrading/camera/data
 
 ## Running the Samples using CocoaPod
  - You'll need Xcode 7.3 or later.
