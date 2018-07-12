@@ -7,7 +7,7 @@ Demonstrates how to incorporate a trained grading tensorflow model from Medicmin
 
  - Place the code under tensorflow/tensorflow/examples/grading_demo
 
- - Download the pneumonia model https://ai.medicmind.tech/models/grading_demo/stripped_graph.pb
+ - Download the pneumonia model https://ai.medicmind.tech/models/grading_demo/stripped_graph.pb  or use your own Medicmind model
 
  - Place under /tensorflow/examples/grading_demo/camera/data
 
