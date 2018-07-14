@@ -5,7 +5,7 @@ Demonstrates how to incorporate a trained grading tensorflow model from Medicmin
 ## Installation
  - Clone Tensorflow onto your Mac (Tensorflow 1.2.0 will work fine) 
 
- - Place the code under tensorflow/tensorflow/examples/grading_demo
+ - Place the grading_demo code under tensorflow/tensorflow/examples
 
  - Download the pneumonia model https://ai.medicmind.tech/models/grading_demo/stripped_graph.pb  or use your own Medicmind model (rename frozen_model.pb to stripped_graph.pb)
 
