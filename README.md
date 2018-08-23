@@ -1,4 +1,4 @@
-# Medicmind Multiclass Classifier Example
+# Medicmind Grading Classifier Example
 
 Demonstrates how to use a trained grading tensorflow model from Medicminds AI platform (https://www.medicmind.tech). Includes a python and iPhone app demo. The neural network trained detects types of cervix. The neural network trained detects Pneumonia in xrays. A number of zero means low probability, 1 means high probability.
 
@@ -11,24 +11,10 @@ Demonstrates how to use a trained grading tensorflow model from Medicminds AI pl
  
  - Execute
  ```
- python infer.py --checkpoint_dir="camera/data/frozen_model.pb" --filename="cervix.jpg"
+ python infer.py --checkpoint_dir="camera/data/frozen_model.pb" --filename="12B_1.jpg "
  ```
- To use your own frozen model from Medicmind just replace the frozen_model.pb file in /camera/data and change the infer.py line
-```
- classes=['None','Type 1','Type 2','Type 3']
-```
-
- to the classes you have defined in your multiclass classifier. So if your classes are dogs, cats and mice then line would become
- ```
-classes = ['dog','cat','mouse']
-```
-
  
 # IOS demo
-# Medicmind Grading Classifier iOS Example
-
-Demonstrates how to incorporate a trained grading tensorflow model from Medicminds AI platform (https://www.medicmind.tech) into an iPhone App. The neural network trained detects Pneumonia in xrays. A number of zero means low probability, 1 means high probability.
-
 ## Installation
  - Clone Tensorflow onto your Mac (Tensorflow 1.2.0 will work fine) 
 
