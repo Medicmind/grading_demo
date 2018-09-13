@@ -1,6 +1,6 @@
 # Medicmind Grading Classifier Example
 
-Demonstrates how to use a trained grading tensorflow model from Medicminds AI platform (https://www.medicmind.tech). Includes a python and iPhone app demo. The neural network trained detects types of cervix. The neural network trained detects Pneumonia in xrays. A number of zero means low probability, 1 means high probability.
+Demonstrates how to use a trained grading tensorflow model from Medicminds AI platform (https://www.medicmind.tech). Includes a python and iPhone app demo. The neural network trained detects Pneumonia in xrays. A number of zero means low probability, 1 means high probability.
 
 # Python Demo
  - Install Tensorflow as per instructions https://www.tensorflow.org/install/
