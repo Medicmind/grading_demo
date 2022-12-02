@@ -5,7 +5,7 @@ Demonstrates how to use a trained grading tensorflow model from Medicminds AI pl
 # Python Demo
  - Install Tensorflow as per instructions https://www.tensorflow.org/install/
  
- - Download the pneumonia model https://ai.medicmind.tech/shared/models/grading_demo/frozen_model.pb  or use your own Medicmind model (rename frozen_model.pb to stripped_graph.pb)
+ - Download the pneumonia model https://ai.medicmind.tech/shared/models/grading_demo/frozen_model.pb  or use your own Medicmind model
 
  - Place stripped_graph.pb under grading_demo/camera/data
  
