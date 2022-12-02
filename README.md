@@ -20,7 +20,7 @@ Demonstrates how to use a trained grading tensorflow model from Medicminds AI pl
 
  - Place the grading_demo code under tensorflow/tensorflow/examples
 
- - Download the pneumonia model https://ai.medicmind.tech/shared/models/grading_demo/stripped_graph.pb  or use your own Medicmind model (rename frozen_model.pb to stripped_graph.pb)
+ - Download the pneumonia model https://ai.medicmind.tech/shared/models/grading_demo/frozen_model.pb  or use your own Medicmind model (rename frozen_model.pb to stripped_graph.pb)
 
  - Place stripped_graph.pb under /tensorflow/examples/grading_demo/camera/data
 
