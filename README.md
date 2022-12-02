@@ -11,7 +11,7 @@ Demonstrates how to use a trained grading tensorflow model from Medicminds AI pl
  
  - Execute
  ```
- python infer.py --checkpoint_dir="camera/data/stripped_graph.pb" --filename="12B_1.jpg"
+ python infer.py --checkpoint_dir="camera/data/frozen_model.pb" --filename="12B_1.jpg"
  ```
  
 # IOS demo
