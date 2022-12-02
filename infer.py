@@ -16,7 +16,9 @@ import time
 
 from PIL import Image
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
 
 tf.app.flags.DEFINE_string('checkpoint_dir', '/tmp/imagenet_train',
                            """Directory where to read model checkpoints.""")
