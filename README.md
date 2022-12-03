@@ -15,6 +15,34 @@ Demonstrates how to use a trained grading tensorflow model from Medicminds AI pl
  ```
  
 # IOS demo
+
+To create an IOS app using a trained grading classifer frozen_model.pb download Tensorflow examples:
+
+https://github.com/tensorflow/examples
+
+Then convert the frozen_model.pb file from your Medicmind model to Keras TFLite format using 
+```
+pbtotflite.py 
+```
+Place the frozen_model.pb in camera/data and this python code will generate pruned.lite
+
+Then with the IOS image classification app in Tensorflow examples under:
+
+```
+lite/examples/image_classification/ios/ImageClassification
+```
+
+Replace the 'mobilenet_quant_v1_224.tflite' with the 'pruned.lite' model under the folder 'Model' 
+
+And also change the reference in 'ModelDataHandler.swift' to pruned.lite:
+
+```
+static let modelInfo: FileInfo = (name: "mobilenet_quant_v1_224", extension: "tflite")
+```
+
+Also included is the legacy IOS demo for using Medicmind models with IOS:
+
+
 ## Installation
  - Clone Tensorflow onto your Mac (Tensorflow 1.2.0 will work fine) 
 
